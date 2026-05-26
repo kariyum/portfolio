@@ -36,20 +36,14 @@
 				<span class="date">{projectDates(project.start_date, project.end_date)}</span>
 				{#if project.github}
 					<span class="divider">/</span>
-					<a
-						href={resolve('/[project]', { project: project.github })}
-						rel="external"
-						target="_blank"
-						class="github-link">Github repository</a
+					<a href={project.github} rel="external" target="_blank" class="github-link"
+						>Github repository</a
 					>
 				{/if}
 				{#if project.game_link}
 					<span class="divider">/</span>
-					<a
-						href={resolve('/[project]', { project: project.game_link })}
-						rel="external"
-						target="_blank"
-						class="github-link">Play the game!</a
+					<a href={project.game_link} rel="external" target="_blank" class="github-link"
+						>Play the game!</a
 					>
 				{/if}
 			</div>
@@ -66,9 +60,7 @@
 			{#if children}
 				{@render children()}
 			{:else if project.github}
-				<a href={resolve('/[project]', { project: project.github })} rel="external"
-					>GitHub README.md</a
-				>
+				<a href={project.github} rel="external">GitHub README.md</a>
 			{/if}
 		</section>
 	</div>
@@ -91,7 +83,7 @@
 	.back-button:hover {
 		background-color: light-dark(
 			hsl(from var(--accent-blue) h s calc(90)),
-			hsl(from var(--accent-blue) h s calc(5))
+			hsl(from var(--accent-blue) h s calc(20))
 		);
 	}
 

@@ -132,6 +132,19 @@
 						class="link-branded">Parse Don't Validate</a
 					>
 				</li>
+				<li>
+					<a href="https://ryhl.io/blog/actors-with-tokio/" class="link-branded"
+						>Actors with Tokio</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://web.archive.org/web/20240917094530/https://letitcrash.com/post/29044669086/balancing-workload-across-nodes-with-akka-2/"
+						class="link-branded"
+					>
+						Balancing Workflow Across Nodes with Akka
+					</a>
+				</li>
 			</ul>
 		</div>
 		<div class="readings-column">
@@ -251,7 +264,7 @@
 		font-weight: 500;
 		color: var(--text-secondary);
 	}
-	
+
 	.project-body {
 		font-size: 1rem;
 		line-height: 1.6;
@@ -288,7 +301,6 @@
 	.reading-list {
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
 	}
 
 	.reading-list li a {
