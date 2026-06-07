@@ -121,15 +121,22 @@ export function load() {
 			app_page_url: 'single-machine-scheduling-problem'
 		},
 		{
-			title: 'High-Throughput Performance Profiling',
-			keywords: ['Distributed-Systems', 'Observability', 'Benchmarking', 'Real-time-Analytics'],
-			body: [
-				'Designed a real-time observability platform for ingesting and visualizing high-frequency metric streams to identify and resolve performance bottlenecks in a distributed architectures.'
+			title: 'Real-time Streaming Profiler',
+			keywords: [
+				'Distributed-Systems',
+				'Observability',
+				'Benchmarking',
+				'Real-time-Analytics',
+				'Telemetry',
+				'Profiling'
 			],
-			github: 'https://github.com/kariyum/program-insights',
+			body: [
+				'Designed a real-time observability platform for ingesting and visualizing high-frequency metric streams to identify and resolve performance bottlenecks in a distributed architecture.'
+			],
+			github: 'https://github.com/kariyum/real-time-streaming-profiler',
 			start_date: '2024-04-01',
 			end_date: '2024-04-01',
-			tech_stack: ['SvelteKit', 'Scala', 'Akka-streams'],
+			tech_stack: ['SvelteKit', 'Rust', 'Actix web', 'Scala', 'Akka-streams'],
 			app_page_url: 'profiling-suite'
 		},
 		{
